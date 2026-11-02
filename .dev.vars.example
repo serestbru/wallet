@@ -1,0 +1,10 @@
+# Only needed for the bootstrap flow. Prefer creating each pass through /admin.
+APPLE_PASS_AUTH_TOKEN=local-development-token
+
+# Required for the protected playground endpoints.
+ADMIN_API_KEY=replace-with-a-long-random-value
+
+# Optional: enables real Apple Push Notification service calls.
+APNS_KEY_ID=
+APNS_TEAM_ID=
+APNS_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----"

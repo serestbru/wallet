@@ -1,0 +1,13 @@
+name = "wallet-loyalty-worker"
+main = "src/index.ts"
+compatibility_date = "2026-11-02"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "wallet-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+migrations_dir = "migrations"
+
+[vars]
+# APNS_ENVIRONMENT = "sandbox" for a development pass, or "production" for a live pass.
+APNS_ENVIRONMENT = "sandbox"

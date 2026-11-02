@@ -1,0 +1,11 @@
+node_modules/
+.wrangler/
+.dev.vars
+dist/
+.env
+*.pem
+*.p12
+*.p8
+*.pkpass
+certs/
+pass/
